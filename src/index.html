@@ -11,38 +11,93 @@
 
 <body>
     <header id="header">
-        <h1>Yifan Xu</h1>
+        <h1>Cat Doudou</h1>
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#modal">Modal</a></li>
             </ul>
         </nav>
 
     </header>
     <main>
         <section id="home">
-            <ul class="carousel">
-                <li class="carousel_slide">
-                    <img class = "carousel_pics" src="./assets/carousel_pics/pic1.jpeg" alt="pic1">
-                </li>
-                <li class="carousel_slide">
-                    <img class = "carousel_pics" src="./assets/carousel_pics/pic2.jpeg" alt="pic2">
-                </li>
-                <li class="carousel_slide">
-                    <img class = "carousel_pics" src="./assets/carousel_pics/pic3.jpeg" alt="pic3">
-                </li>
-            </ul>
+            <h1>
+                Cat Gallery
+            </h1>
+            <div class="slider_wrapper">
+
+                <img src="./assets/carousel_pics/pic1.jpeg" alt="pic1" class="slider_img">
+                <button class="carousel_button carousel_button_left">&lt;</button>
+                <button class="carousel_button carousel_button_right">&gt;</button>
+            </div>
+
         </section>
         <section id="about">
+            <div class="cat_benefits">
+                <div class="icon_container">
+                    <img src="./assets/icons/rocket_launch_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <h2>excellent companionship</h2>
+                <p>They can reduce feelings of loneliness and offer unconditional love and affection. The simple act of
+                    petting a cat can be calming and create a strong bond between the owner and the pet.</p>
+            </div>
+            <div class="cat_benefits">
+                <div class="icon_container">
+                    <img src="./assets/icons/nest_eco_leaf_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <h2>reduce stress and anxiety</h2>
+                <p>Studies have shown that interacting with cats can lower cortisol levels, a stress-related hormone in
+                    the body. The soothing sound of a cat's purr has also been found to have a calming effect on humans.
+                </p>
+            </div>
 
+            <div class="cat_benefits">
+                <div class="icon_container">
+                    <img src="./assets/icons/featured_seasonal_and_gifts_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+                        alt="">
+                </div>
+                <h2>low-maintenance pets</h2>
+                <p>Compared to dogs, they don't require daily walks, are generally quieter, and are naturally clean
+                    animals. This makes them an ideal pet for people with busy lifestyles, those living in apartments,
+                    or older individuals.</p>
+            </div>
         </section>
         <section id="contact">
-            </sections>
+        </section>
+        <section id="modal">
+            <div class="modal_grid">
+                <div class="modal_item">
+                    <img src="./assets/modal_pics/1.jpeg" alt="1">
+                </div>
+                <div class="modal_item">
+                    <img src="./assets/modal_pics/2.jpeg" alt="2">
+                </div>
+                <div class="modal_item">
+                    <img src="./assets/modal_pics/3.jpeg" alt="3">
+                </div>
+                <div class="modal_item">
+                    <img src="./assets/modal_pics/4.jpeg" alt="4">
+                </div>
+                <div class="modal_item">
+                    <img src="./assets/modal_pics/5.jpeg" alt="5">
+                </div>
+                <div class="modal_item">
+                    <img src="./assets/modal_pics/6.jpeg" alt="6">
+                </div>
+            </div>
+            <div class="modal_overlay" id="imageModal">
+                <div class="modal_content">
+                    <button class="modal_close_button">&times;</button>
+                    <img id="modalImage" src="./assets/modal_pics/1.jpeg" alt="" style="display: none;">
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
+    <footer id="footer">
         <p>@ Copyright 2025 Yifan Xu</p>
         <address>
             Contact us: <a href="xxyyffyeah@outlook.com">xxyyffyeah@outlook.com</a>
